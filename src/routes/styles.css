@@ -1,0 +1,103 @@
+@import '@fontsource/fira-mono';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Space Mono';
+        src: url('/fonts/space-mono/SpaceMono-Regular.ttf');
+        font-weight: normal;
+        /* font-display: swap; */
+    }
+    
+    @font-face {
+        font-family: 'Space Mono';
+        src: url('/fonts/space-mono/SpaceMono-Italic.ttf');
+        font-weight: normal;
+        font-style: italic;
+        /* font-display: swap; */
+    }
+
+    @font-face {
+        font-family: 'Space Mono';
+        src: url('/fonts/space-mono/SpaceMono-Bold.ttf');
+        font-weight: bold;
+        /* font-display: swap; */
+    }
+    
+    @font-face {
+        font-family: 'Space Mono';
+        src: url('/fonts/space-mono/SpaceMono-BoldItalic.ttf');
+        font-weight: bold;
+        font-style: italic;
+        /* font-display: swap; */
+    }
+
+    @font-face {
+        font-family: 'Monument Extended';
+        src: url('fonts/monument-extended/MonumentExtended-Regular.otf');
+        font-weight: normal;
+        /* font-display: swap; */
+    }
+
+    @font-face {
+        font-family: 'Monument Extended';
+        src: url('fonts/monument-extended/MonumentExtended-Ultrabold.otf');
+        font-weight: bold;
+        /* font-display: swap; */
+    }
+
+    .container {
+        @apply max-w-[1535px] xl:max-w-[1279px] lg:max-w-[1023px] md:max-w-[767px] sm:max-w-[639px];
+    }
+
+    :root {
+        font-family: 'Space Mono';
+        @apply bg-mint-cream;
+        @apply text-smoky-black;
+    }
+
+    p {
+        @apply text-xl;
+    }
+
+    a {
+        @apply text-argentinian-blue;
+        @apply hover:text-russian-violet-light;
+        &:hover {
+            @apply transition-all;
+        }
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Monument Extended';
+        font-weight: bold;
+    }
+
+    h1 {
+        @apply text-[3.5rem];
+    }
+    
+    h2 {
+        @apply text-[2.5rem];
+    }
+
+    h3 {
+        @apply text-[1.5rem];
+    }
+
+    h4 {
+        @apply text-[1.25rem];
+    }
+
+    h5 {
+        @apply text-[1rem];
+    }
+
+    h6 {
+        @apply text-[0.875rem];
+    }
+
+}
