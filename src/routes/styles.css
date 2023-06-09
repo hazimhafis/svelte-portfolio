@@ -8,7 +8,7 @@
         font-family: 'Space Mono';
         src: local('Space Mono'), local('Space-Mono'), 
         local('space mono'), local('space-mono'), 
-        url('$fonts/space-mono/SpaceMono-Regular.ttf');
+        url('fonts/space-mono/SpaceMono-Regular.ttf');
         font-weight: normal;
         font-display: swap;
     }
@@ -17,7 +17,7 @@
         font-family: 'Space Mono';
         src: local('Space Mono Italic'), local('Space-Mono-Italic'), 
         local('space mono italic'), local('space-mono-italic'), 
-        url('$fonts/space-mono/SpaceMono-Italic.ttf');
+        url('fonts/space-mono/SpaceMono-Italic.ttf');
         font-weight: normal;
         font-style: italic;
         font-display: swap;
@@ -27,7 +27,7 @@
         font-family: 'Space Mono';
         src: local('Space Mono Bold'), local('Space-Mono-Bold'), 
         local('space mono bold'), local('space-mono-bold'), 
-        url('$fonts/space-mono/SpaceMono-Bold.ttf');
+        url('fonts/space-mono/SpaceMono-Bold.ttf');
         font-weight: bold;
         font-display: swap;
     }
@@ -36,7 +36,7 @@
         font-family: 'Space Mono';
         src: local('Space Mono Bold Italic'), local('Space-Mono-Bold-Italic'), 
         local('space mono bold italic'), local('space-mono-bold-italic'), 
-        url('$fonts/space-mono/SpaceMono-BoldItalic.ttf');
+        url('fonts/space-mono/SpaceMono-BoldItalic.ttf');
         font-weight: bold;
         font-style: italic;
         font-display: swap;
@@ -45,7 +45,7 @@
     @font-face {
         font-family: 'Monument Extended';
         src:local('Monument Extended'), local('monument extended'), 
-        url('$fonts/monument-extended/MonumentExtended-Regular.otf');
+        url('fonts/monument-extended/MonumentExtended-Regular.otf');
         font-weight: normal;
         font-display: swap;
     }
@@ -53,7 +53,7 @@
     @font-face {
         font-family: 'Monument Extended';
         src: local('Monument Extended'), local('monument extended'), 
-        url('$fonts/monument-extended/MonumentExtended-Ultrabold.otf');
+        url('fonts/monument-extended/MonumentExtended-Ultrabold.otf');
         font-weight: bold;
         font-display: swap;
     }
