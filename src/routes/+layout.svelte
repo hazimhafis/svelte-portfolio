@@ -36,12 +36,12 @@
                 <img class="w-6 h-6 md:w-4 md:h-4" src="{sveltelogo}" alt="svelte">
             </a>
             <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
-                <img class="w-6 h-6 md:w-4 md:h-4" src="https://cdn.cdnlogo.com/logos/t/34/tailwind-css.svg" alt="tailwindcss"/>
+                <img class="ml-2 w-6 h-6 md:w-4 md:h-4" src="https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg" alt="tailwindcss"/>
             </a>
         </div>
         <div class="footer-item">
             <a href="https://github.com/hazimhafis/" target="_blank" rel="noopener noreferrer">
-                <img class="w-6 h-6 md:w-4 md:h-4" src="https://img.icons8.com/fluent/48/000000/github.png" alt="github"/>    
+                <img class="w-6 h-6 md:w-4 md:h-4" src="https://img.icons8.com/fluent/48/000000/github.png" alt="github"/>
             </a>
             <a href="https://www.linkedin.com/in/hazim-hafis/" target="_blank" rel="noopener noreferrer">
                 <img class="w-6 h-6 md:w-4 md:h-4" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="linkedin"/>
