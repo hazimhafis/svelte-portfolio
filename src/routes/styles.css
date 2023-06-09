@@ -13,7 +13,7 @@
     
     @font-face {
         font-family: 'Space Mono';
-        src: url('fonts/space-mono/SpaceMono-Italic.ttf');
+        src: url('/fonts/space-mono/SpaceMono-Italic.ttf');
         font-weight: normal;
         font-style: italic;
         font-display: swap;
@@ -21,14 +21,14 @@
 
     @font-face {
         font-family: 'Space Mono';
-        src: url('fonts/space-mono/SpaceMono-Bold.ttf');
+        src: url('/fonts/space-mono/SpaceMono-Bold.ttf');
         font-weight: bold;
         font-display: swap;
     }
     
     @font-face {
         font-family: 'Space Mono';
-        src: url('fonts/space-mono/SpaceMono-BoldItalic.ttf');
+        src: url('/fonts/space-mono/SpaceMono-BoldItalic.ttf');
         font-weight: bold;
         font-style: italic;
         font-display: swap;
@@ -36,14 +36,14 @@
 
     @font-face {
         font-family: 'Monument Extended';
-        src: url('fonts/monument-extended/MonumentExtended-Regular.otf');
+        src: url('/fonts/monument-extended/MonumentExtended-Regular.otf');
         font-weight: normal;
         font-display: swap;
     }
 
     @font-face {
         font-family: 'Monument Extended';
-        src: url('fonts/monument-extended/MonumentExtended-Ultrabold.otf');
+        src: url('/fonts/monument-extended/MonumentExtended-Ultrabold.otf');
         font-weight: bold;
         font-display: swap;
     }
