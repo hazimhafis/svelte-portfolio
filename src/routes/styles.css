@@ -53,7 +53,7 @@
     }
 
     :root {
-        font-family: 'Space Mono';
+        font-family: 'Space Mono', 'Courier New', Courier, monospace;
         @apply bg-mint-cream;
         @apply text-smoky-black;
     }
