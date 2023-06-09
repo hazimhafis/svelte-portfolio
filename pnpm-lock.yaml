@@ -19,6 +19,9 @@ devDependencies:
   '@fontsource/fira-mono':
     specifier: ^4.5.10
     version: 4.5.10
+  '@fontsource/space-mono':
+    specifier: ^5.0.2
+    version: 5.0.2
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -336,6 +339,10 @@ packages:
 
   /@fontsource/fira-mono@4.5.10:
     resolution: {integrity: sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==}
+    dev: true
+
+  /@fontsource/space-mono@5.0.2:
+    resolution: {integrity: sha512-99s6KftNQ2V5T1U/EA25+iGbn6YjnK4i/KFIOpFeD7AhHix/gV354upa+dpYYQX0xvQUqJj2o1Muo1t2YfaIUg==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.10:

@@ -1,38 +1,12 @@
+@import "@fontsource/space-mono";
+@import "@fontsource/space-mono/400.css"; 
+@import "@fontsource/space-mono/700.css"; 
+@import "@fontsource/space-mono/400-italic.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-
-    @font-face {
-        font-family: 'Space Mono';
-        src: url('fonts/space-mono/SpaceMono-Regular.ttf');
-        font-weight: normal;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Space Mono';
-        src: url('/fonts/space-mono/SpaceMono-Italic.ttf');
-        font-weight: normal;
-        font-style: italic;
-        font-display: swap;
-    }
-
-    @font-face {
-        font-family: 'Space Mono';
-        src: url('/fonts/space-mono/SpaceMono-Bold.ttf');
-        font-weight: bold;
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: 'Space Mono';
-        src: url('/fonts/space-mono/SpaceMono-BoldItalic.ttf');
-        font-weight: bold;
-        font-style: italic;
-        font-display: swap;
-    }
 
     @font-face {
         font-family: 'Monument Extended';
@@ -53,7 +27,7 @@
     }
 
     :root {
-        font-family: 'Space Mono', 'Courier New', Courier, monospace;
+        font-family: 'Space Mono', 'Fira Code', monospace;
         @apply bg-mint-cream;
         @apply text-smoky-black;
     }
