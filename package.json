@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"gsap": "^3.12.1",
-		"splitting": "^1.0.6"
+		"splitting": "^1.0.6",
+		"web-vitals": "^3.3.2"
 	}
 }
