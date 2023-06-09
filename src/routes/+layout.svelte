@@ -1,9 +1,9 @@
 <script>
-    import { fly } from 'svelte/transition'; 
+    import { fly } from 'svelte/transition';
+    import './styles.css';
 	import Header from './Header.svelte';
     import hhlogo from '$lib/images/hh-logo.svg';
     import sveltelogo from '$lib/images/svelte-logo.svg';
-	import './styles.css';
 
     export let data;
 </script>
