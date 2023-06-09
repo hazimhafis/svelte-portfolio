@@ -6,9 +6,4 @@ import { resolve } from 'path';
 
 export default defineConfig({
 	plugins: [sveltekit(), isoImport()],
-    resolve: {
-        alias: { 
-            $fonts: resolve('./static/fonts'),
-        }
-    }
 });
