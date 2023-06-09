@@ -8,6 +8,15 @@
     export let data;
 </script>
 
+<svelte:head>
+    <link rel="preload" href="$fonts/space-mono/SpaceMono-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="$fonts/space-mono/SpaceMono-Italic.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="$fonts/space-mono/SpaceMono-Bold.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="$fonts/space-mono/SpaceMono-BoldItalic.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="$fonts/monument-extended/MonumentExtended-Regular.otf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="$fonts/monument-extended/MonumentExtended-Ultrabold.otf" as="font" crossorigin="anonymous" />
+</svelte:head>
+
 <div id="app" class="w-full min-h-screen flex flex-col">
 	<Header />
 
