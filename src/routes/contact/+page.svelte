@@ -6,7 +6,7 @@
         <h1 class="title text-center">Get In Touch</h1>
         <p class="max-w-prose text-center">If you're interested to create a visually appealing website and other fun stuff, hit me up!</p>
         
-        <a class="contact-me mt-8 text-5xl md:text-base font-monument" href="mailto:">hazimhf.dev@gmail.com</a>
+        <a class="contact-me mt-8 text-5xl md:text-base font-monument" href="mailto:hazimhf.dev@gmail.com">hazimhf.dev@gmail.com</a>
 
     </div>
 </section>
